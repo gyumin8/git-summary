@@ -58,6 +58,11 @@ $ git log --oneline -> 로그 이력을 한 줄로 표시
 $ git log [--patch | -p] -> 로그 이력과 함께 파일의 변화를 표시
 *커밋 ID는 SHA-1 암호 알고리즘에 의해 40개의 16진수로 표현됨.
 
+$ git log --graph -> 문자 그림으로 로그 이력 그리기
+$ git log --reverse -> 오래된 커밋부터 표시 --graph와 함께 사용할 수 없음
+$ git log -all -> 모든 브랜치의 로그 이력 표시
+$ git log -n -> 최근 n개의 로그 이력 표시
+
 커밋 정보 git show)
 주요 명령)
 $ git show -> HEAD의 커밋 정보 표시
@@ -65,8 +70,6 @@ $ git show --oneline -> 커밋 로그 한 줄과 파일 차이 표시
 $ git show -s -> 파일 차이는 표시되지 않음
 $ git show [HEAD] -> 지정한 HEAD의 커밋 정보 표시
 $ git show [commitID] -> 지정한 commitID의 커밋 정보 표시
-
-
 
 
 
