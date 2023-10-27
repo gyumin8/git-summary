@@ -77,3 +77,6 @@ $ git checkout HEAD~ -> HEAD 이전 커밋으로 이동
 $ git checkout - -> 이전 checkout으로 이동
 $ git checkout main -> 브랜치의 마지막 커밋으로 이동
 
+
+<--깃 여러 저장 상태의 비교-->
+
