@@ -71,5 +71,9 @@ $ git show -s -> 파일 차이는 표시되지 않음
 $ git show [HEAD] -> 지정한 HEAD의 커밋 정보 표시
 $ git show [commitID] -> 지정한 commitID의 커밋 정보 표시
 
-
+checkout으로 이전 버전 여행)
+주요명령)
+$ git checkout HEAD~ -> HEAD 이전 커밋으로 이동
+$ git checkout - -> 이전 checkout으로 이동
+$ git checkout main -> 브랜치의 마지막 커밋으로 이동
 
