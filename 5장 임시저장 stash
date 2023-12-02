@@ -15,7 +15,7 @@ stah는 스택 구조이다.
 커밋 이후 작업 공간이 깨끗한 상태에서도 불가능.
 
 
-$git stash lis ->임시저장 목록 보기
+$git stash list ->임시저장 목록 보기
 
 $git stash show
 $git stash show stash@{n}  ->현재 WD와 임시저장 stash의 내용을 비교해 보이기, 명시한 stash가 없으면 최신 임시저장으로 비교
